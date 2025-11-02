@@ -10,7 +10,7 @@ steps:
     publishWebProjects: true
 - task: AzureWebApp@1
   inputs:
-    azureSubscription: 'sc_test'
+    azureSubscription: 'sc100'
     appType: 'webAppLinux'
-    appName: 'webappADO'
+    appName: 'appIndia'
     package: '$(System.DefaultWorkingDirectory)/**/*.zip'
