@@ -5,7 +5,7 @@ variables:
   buildConfiguration: 'Release'
   
 pool:
-  vmImage: 'windows-latest'
+   name: 'Default' 
   
 steps:
 - script: dotnet build --configuration $(buildConfiguration)
